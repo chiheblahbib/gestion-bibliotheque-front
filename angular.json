@@ -22,12 +22,25 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/vendor"
             ],
             "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+              "src/styles.css",
+              "src/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/css/templatemo-chain-app-dev.css",
+              "src/assets/css/animated.css",
+              "src/assets/css/owl.css",
+              "src/vendor/fontawesome/all-custom.min.css"],
+              "scripts": [
+                "src/vendor/jquery/jquery.min.js",
+                "src/vendor/bootstrap/js/bootstrap.bundle.min.js",
+                "src/assets/js/owl-carousel.js",
+                "src/assets/js/popup.js",
+                "src/assets/js/custom.js",
+                "src/assets/js/animation.js",
+                "src/assets/js/imagesloaded.js"
+              ]
           },
           "configurations": {
             "production": {
@@ -84,12 +97,25 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/vendor"
             ],
             "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+              "src/styles.css",
+              "src/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/css/templatemo-chain-app-dev.css",
+              "src/assets/css/animated.css",
+              "src/assets/css/owl.css",
+              "src/vendor/fontawesome/all-custom.min.css"],
+              "scripts": [
+                "src/vendor/jquery/jquery.min.js",
+                "src/vendor/bootstrap/js/bootstrap.bundle.min.js",
+                "src/assets/js/owl-carousel.js",
+                "src/assets/js/popup.js",
+                "src/assets/js/custom.js",
+                "src/assets/js/animation.js",
+                "src/assets/js/imagesloaded.js"
+              ]
           }
         }
       }

@@ -1,0 +1,7 @@
+/* Importer les fichiers CSS nécessaires pour le footer */
+@import url('src/vendor/bootstrap/css/bootstrap.min.css');
+@import url('src/assets/css/templatemo-chain-app-dev.css');
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Ajouter des styles spécifiques au footer si nécessaire */

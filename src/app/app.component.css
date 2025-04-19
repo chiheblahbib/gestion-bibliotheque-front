@@ -1,0 +1,4 @@
+.main-content {
+    margin-top: 160px; /* Doit correspondre à la hauteur de votre header */
+    min-height: calc(100vh - 80px); /* Pour s'assurer que le footer reste en bas */
+  }
